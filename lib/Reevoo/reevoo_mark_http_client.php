@@ -49,10 +49,10 @@ class ReevooMarkHttpClient {
         curl_setopt($ch, CURLOPT_URL, $remote_url);
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
         curl_setopt($ch, CURLOPT_FOLLOWLOCATION, 1);
-        curl_setopt($ch, CURLOPT_TIMEOUT_MS, 5000);
+        curl_setopt($ch, CURLOPT_TIMEOUT_MS, 2000);
         curl_setopt($ch, CURLOPT_USERAGENT, "ReevooMark PHP Widget/8");
         curl_setopt($ch, CURLOPT_REFERER, "http://{$_SERVER['HTTP_HOST']}{$_SERVER['REQUEST_URI']}");
-        curl_setopt($ch, CURLOPT_CONNECTTIMEOUT, 5);
+        curl_setopt($ch, CURLOPT_CONNECTTIMEOUT, 2);
         curl_setopt($ch, CURLOPT_HEADER, 1);
 
         if ($result = curl_exec($ch))
