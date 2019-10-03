@@ -1,7 +1,7 @@
 {
-    "name": "OpenMageModuleFostering\/Com_Reevoo",
+    "name": "openmage-module-fostering\/com_reevoo",
     "type": "magento-module",
-    "license": "Open-Software-License-(OSL)",
+    "license": "OSL-3.0",
     "homepage": "",
     "description": "This module provides functionality for Reevoo setup in your Magento store",
     "authors": [
